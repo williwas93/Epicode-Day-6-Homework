@@ -1,36 +1,35 @@
 // "This is my first JS query - Wish me luck!";
-let welcome = "Welcome to my first JS Query - wish me luck!";
+let firstname = "William ";
 
-let firstname;
+let middlename = "James ";
 
-firstname = "William ";
+let surname = "Rowe";
 
-let middlename;
+let fullname = firstname + middlename + surname;
 
-middlename = "James ";
+let age = "29";
 
-let surname;
+let currentyear = "2022";
 
-surname = "Rowe ";
+let birthyear = currentyear - age;
 
-let age;
+console.log ("------------------Welcome to my first ever JS coding!------------------")
+console.log ("Hello my name is " + fullname +".");
 
-age = "29";
+console.log ("I was born in" , birthyear);
 
-let current year = "2022";
+// "Second homework";
 
-let birthYear - currentYear - age;
+console.log ("------------------Now lets do some cooking shall we?----------------------")
 
-console.log (welcome);
-
-console.log("\n------- Tell me what your name is --------");
-console.log("Hello my name is "firstname + surname);
-
-console.log ("\n------- Okay great, do you have a middle name? -------");
-console.log (middlename);
-
-console.log("\n---------- So what is your full name then? -----------");
-console.log (firstname + middlename + surname);
-
-console.log("\n----------- How old are you? ----------");
-console.log(birthYear); 
+let spaghetti = "400";
+let guanciale = "250";
+let fresheggs = "6";
+let cheese = "50";
+let pepper = "4";
+console.log ("------What are the ingredients?------");
+console.log ("Spaghetti" , spaghetti,"g");
+console.log ("Guanciale",guanciale,"g");
+console.log ("Fresh Eggs",fresheggs);
+console.log ("Cheese",cheese,"g");
+console.log ("Pepper",pepper,"g");
